@@ -1,0 +1,49 @@
+body {
+  background: #e7e7e7;
+  padding: 2rem 0;
+}
+
+.page .container {
+  padding: 2rem;
+  background: #ffffff;
+}
+
+div.other-description {
+  font-size: 12px;
+  color: grey;
+  padding-left: 4px;
+  font-style: italic;
+}
+
+div.form p {
+  margin: 0;
+}
+
+/* div.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img {
+  margin-top: 16px;
+}
+
+div.images img:nth-child(2) {
+  margin: 0 16px;
+} */
+
+header.main ul {
+  display: flex;
+  justify-content: center;
+}
+
+header.main li {
+  list-style-type: none;
+}
+
+header.main li a {
+  padding: 0 1.5rem;
+  display: block;
+}
