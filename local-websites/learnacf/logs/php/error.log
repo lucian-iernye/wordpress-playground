@@ -1,0 +1,127 @@
+[19-Oct-2021 10:08:35 UTC] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE) in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/front-page.php on line 11
+[20-Oct-2021 10:22:52 UTC] PHP Parse error:  syntax error, unexpected '' in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/functions.php on line 63
+[20-Oct-2021 10:24:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/functions.php on line 49
+[20-Oct-2021 10:26:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/functions.php on line 53
+[20-Oct-2021 10:39:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/functions.php on line 71
+[20-Oct-2021 12:09:33 UTC] PHP Fatal error:  Cannot redeclare my_first_taxonomy() (previously declared in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/functions.php:61) in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/functions.php on line 119
+[20-Oct-2021 12:09:33 UTC] PHP Stack trace:
+[20-Oct-2021 12:09:33 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-admin/admin-ajax.php:0
+[20-Oct-2021 12:09:33 UTC] PHP   2. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-admin/admin-ajax.php:22
+[20-Oct-2021 12:09:33 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-load.php:50
+[20-Oct-2021 12:09:33 UTC] PHP   4. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-config.php:77
+[21-Oct-2021 08:58:02 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[21-Oct-2021 08:58:02 UTC] PHP Stack trace:
+[21-Oct-2021 08:58:02 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[21-Oct-2021 08:58:02 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[21-Oct-2021 08:58:02 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[21-Oct-2021 08:58:02 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[21-Oct-2021 08:58:47 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[21-Oct-2021 08:58:47 UTC] PHP Stack trace:
+[21-Oct-2021 08:58:47 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[21-Oct-2021 08:58:47 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[21-Oct-2021 08:58:47 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[21-Oct-2021 08:58:47 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[21-Oct-2021 08:58:58 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 28
+[21-Oct-2021 08:58:58 UTC] PHP Stack trace:
+[21-Oct-2021 08:58:58 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[21-Oct-2021 08:58:58 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[21-Oct-2021 08:58:58 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[21-Oct-2021 08:58:58 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[21-Oct-2021 09:03:48 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php:28
+Stack trace:
+#0 /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php(19): require_once('/Users/lucianie...')
+#2 /Users/lucianiernye/Local Sites/learnacf/app/public/index.php(17): require('/Users/lucianie...')
+#3 {main}
+  thrown in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 28
+[27-Oct-2021 08:56:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[27-Oct-2021 08:56:22 UTC] PHP Stack trace:
+[27-Oct-2021 08:56:22 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 08:56:22 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 08:56:22 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 08:56:22 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 10:56:14 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-locations.php on line 34
+[27-Oct-2021 10:56:14 UTC] PHP Stack trace:
+[27-Oct-2021 10:56:14 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 10:56:14 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 10:56:14 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 10:56:14 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:08:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[27-Oct-2021 11:08:01 UTC] PHP Stack trace:
+[27-Oct-2021 11:08:01 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:08:01 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:08:01 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:08:01 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:08:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 44
+[27-Oct-2021 11:08:01 UTC] PHP Stack trace:
+[27-Oct-2021 11:08:01 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:08:01 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:08:01 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:08:01 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:08:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[27-Oct-2021 11:08:38 UTC] PHP Stack trace:
+[27-Oct-2021 11:08:38 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:08:38 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:08:38 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:08:38 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:08:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 44
+[27-Oct-2021 11:08:38 UTC] PHP Stack trace:
+[27-Oct-2021 11:08:38 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:08:38 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:08:38 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:08:38 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:08:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[27-Oct-2021 11:08:39 UTC] PHP Stack trace:
+[27-Oct-2021 11:08:39 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:08:39 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:08:39 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:08:39 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:08:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 44
+[27-Oct-2021 11:08:39 UTC] PHP Stack trace:
+[27-Oct-2021 11:08:39 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:08:39 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:08:39 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:08:39 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:08:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[27-Oct-2021 11:08:39 UTC] PHP Stack trace:
+[27-Oct-2021 11:08:39 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:08:39 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:08:39 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:08:39 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:08:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 44
+[27-Oct-2021 11:08:39 UTC] PHP Stack trace:
+[27-Oct-2021 11:08:39 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:08:39 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:08:39 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:08:39 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:10:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[27-Oct-2021 11:10:21 UTC] PHP Stack trace:
+[27-Oct-2021 11:10:21 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:10:21 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:10:21 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:10:21 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:10:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 44
+[27-Oct-2021 11:10:21 UTC] PHP Stack trace:
+[27-Oct-2021 11:10:21 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:10:21 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:10:21 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:10:21 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:37:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 26
+[27-Oct-2021 11:37:21 UTC] PHP Stack trace:
+[27-Oct-2021 11:37:21 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:37:21 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:37:21 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:37:21 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 11:37:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 44
+[27-Oct-2021 11:37:21 UTC] PHP Stack trace:
+[27-Oct-2021 11:37:21 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 11:37:21 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 11:37:21 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 11:37:21 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 12:10:50 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 66
+[27-Oct-2021 12:10:50 UTC] PHP Stack trace:
+[27-Oct-2021 12:10:50 UTC] PHP   1. {main}() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:0
+[27-Oct-2021 12:10:50 UTC] PHP   2. require() /Users/lucianiernye/Local Sites/learnacf/app/public/index.php:17
+[27-Oct-2021 12:10:50 UTC] PHP   3. require_once() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-blog-header.php:19
+[27-Oct-2021 12:10:50 UTC] PHP   4. include() /Users/lucianiernye/Local Sites/learnacf/app/public/wp-includes/template-loader.php:106
+[27-Oct-2021 12:14:34 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/lucianiernye/Local Sites/learnacf/app/public/wp-content/themes/basic-theme/single-team.php on line 66
